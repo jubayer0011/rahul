@@ -16,8 +16,16 @@
         .profile-container{
             display: flex;
             align-items: center;
-            
+          
+           
+
+           
         }
+
+     
+      
+            
+
 
         .profile-photo{
             border: 1px solid black ;
@@ -112,6 +120,22 @@
               color: white;
         }
 
+
+           @media (max-width: 768px){
+            .profile-container{
+                flex-direction: column;
+            }
+            .album{
+                  position: relative;
+            top: -5px;
+
+            }
+
+            .about{
+                  position: relative;
+            top: -5px;
+            }
+        }
 
         </style>
 
